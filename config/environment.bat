@@ -6,7 +6,7 @@ SET ENV_LOGDATE=%xDATE:~6,4%-%xDATE:~3,2%-%xDATE:~0,2%
 SET ENV_LOGDATETIME=%xDATE:~6,4%-%xDATE:~3,2%-%xDATE:~0,2%_%xtime:~0,2%-%xtime:~3,2%
 
 REM Vorbelegung von Variablen mit dummy-Werten
-FME_SERVER_QS_TOKEN=DUMMY
+SET FME_SERVER_QS_TOKEN=DUMMY
 
 
 REM Überladen von Variablen durch spezifischen Festlegungen
